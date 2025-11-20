@@ -1,6 +1,3 @@
-Here’s a clean, generic anti-unification implementation in Python you can build on:
-
-```python
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Union, Tuple, Dict, List
@@ -133,4 +130,3 @@ if __name__ == "__main__":
     s2 = [Const("x"), Func("h", (Const("y"), Const("c")))]
     g_list, env2 = anti_unify_list(s1, s2)
     print("list lgg:", [term_to_str(t) for t in g_list])
-```
