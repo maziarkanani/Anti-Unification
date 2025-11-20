@@ -136,13 +136,3 @@ Pure Python, no external dependencies.
 ## 5. License
 
 Free to use, modify, and extend.
-
-```
-
-That gives you:
-
-- FO AU for your current symbolic tune representation.
-- A constrained HO AU core you can later align with the HDTP paper and your nested-variation / theory-projection story.
-::contentReference[oaicite:0]{index=0}
-```
-
