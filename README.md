@@ -9,7 +9,7 @@ It supports:
 * Anti-unifying single terms and lists of terms
 * Returning both the generalization and the substitution pairs
 
-The implementation follows the classic Plotkin formulation of LGG.
+The implementation follows the classic Plotkin first-order anti-unification algorithm — the most standard approach to computing the least general generalization (LGG) of two terms.
 
 ## File Structure
 
