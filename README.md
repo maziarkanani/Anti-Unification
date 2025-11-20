@@ -44,7 +44,7 @@ g, env = anti_unify(t1, t2)
 print("Generalization:", term_to_str(g))
 for v, (u1, u2) in env.items():
     print(v.name, "->", term_to_str(u1), ",", term_to_str(u2))
-
+```
 
 
 Example output:
